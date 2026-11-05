@@ -1,0 +1,128 @@
+{
+  "extName": {
+    "message": "AccountHop – Account Switcher for Roblox"
+  },
+  "extDescription": {
+    "message": "Switch between your own Roblox accounts in one click. Everything stays on your computer. Not affiliated with Roblox."
+  },
+  "localBadge": {
+    "message": "Stays on this PC"
+  },
+  "nowLoggedIn": {
+    "message": "Logged in now"
+  },
+  "notLoggedIn": {
+    "message": "Not logged in to Roblox"
+  },
+  "notLoggedInHint": {
+    "message": "Log in, then save the account here."
+  },
+  "loginButton": {
+    "message": "Log in"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "saved": {
+    "message": "Saved"
+  },
+  "offlineTitle": {
+    "message": "Can't reach Roblox"
+  },
+  "offlineHint": {
+    "message": "Check your internet connection and try again."
+  },
+  "yourAccounts": {
+    "message": "Your accounts ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "emptyList": {
+    "message": "No saved accounts yet. Save the account you're logged in with, then add another one."
+  },
+  "switch": {
+    "message": "Switch"
+  },
+  "active": {
+    "message": "Active"
+  },
+  "expired": {
+    "message": "Expired"
+  },
+  "renew": {
+    "message": "Log in"
+  },
+  "removeLabel": {
+    "message": "Remove from list"
+  },
+  "removeConfirm": {
+    "message": "Remove?"
+  },
+  "addAccount": {
+    "message": "Add account"
+  },
+  "pendingText": {
+    "message": "Log in with your other account in the tab that just opened. It will be saved automatically."
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "safetyNote": {
+    "message": "Saved only on this computer. AccountHop never asks for your password or cookie, and never sends them anywhere."
+  },
+  "logoutTip": {
+    "message": "Tip: don't use “Log out” on the Roblox site for a saved account – that ends its saved session."
+  },
+  "toastSwitched": {
+    "message": "Switched to $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Builder"
+      }
+    }
+  },
+  "toastAlready": {
+    "message": "$NAME$ is already active",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Builder"
+      }
+    }
+  },
+  "toastSaved": {
+    "message": "$NAME$ saved",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Builder"
+      }
+    }
+  },
+  "toastRemoved": {
+    "message": "Removed from the list"
+  },
+  "errExpired": {
+    "message": "The session of $NAME$ has expired. Choose “Log in” to renew it.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Builder"
+      }
+    }
+  },
+  "errOffline": {
+    "message": "Roblox can't be reached right now. Try again in a moment."
+  },
+  "errNotLoggedIn": {
+    "message": "You're not logged in to Roblox."
+  },
+  "errGeneric": {
+    "message": "Something went wrong. Please try again."
+  }
+}

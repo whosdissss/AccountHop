@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AccountHop</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="top">
+    <img class="logo" src="icons/icon32.png" alt="" width="22" height="22">
+    <span class="brand">AccountHop</span>
+    <span class="local-badge">
+      <svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path fill="currentColor" d="M12 2 4 5v6c0 5 3.4 9.3 8 11 4.6-1.7 8-6 8-11V5l-8-3Zm-1.2 14.2-3.5-3.5 1.4-1.4 2.1 2.1 4.6-4.6 1.4 1.4-6 6Z"/></svg>
+      <span data-i18n="localBadge"></span>
+    </span>
+  </header>
+
+  <main>
+    <section id="current" class="card current" aria-live="polite">
+      <div class="skeleton"></div>
+    </section>
+
+    <section class="list-section">
+      <h2 id="listTitle" class="section-title"></h2>
+      <ul id="list" class="list"></ul>
+      <p id="empty" class="empty" data-i18n="emptyList" hidden></p>
+    </section>
+
+    <div id="pending" class="pending" hidden>
+      <span class="pulse" aria-hidden="true"></span>
+      <p data-i18n="pendingText"></p>
+      <button id="cancelAdd" class="link" type="button" data-i18n="cancel"></button>
+    </div>
+
+    <button id="add" class="btn primary wide" type="button">
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6V5Z"/></svg>
+      <span data-i18n="addAccount"></span>
+    </button>
+  </main>
+
+  <footer class="foot">
+    <p class="safe" data-i18n="safetyNote"></p>
+    <p class="tip" data-i18n="logoutTip"></p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script src="popup.js"></script>
+</body>
+</html>
